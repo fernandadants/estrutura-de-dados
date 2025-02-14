@@ -1,0 +1,38 @@
+# Ignorar arquivos de compilação
+*.o
+*.exe
+*.out
+*.obj
+*.dll
+*.a
+*.so
+
+# Ignorar o executável gerado
+programa
+
+# Ignorar arquivos de debug
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Ignorar arquivos gerados pelo editor
+.vscode/
+.idea/
+*.code-workspace
+*.suo
+*.vcxproj*
+*.ncb
+*.aps
+*.idb
+*.pdb
+
+# Ignorar pastas comuns de build
+/build/
+/dist/
+/Debug/
+/Release/
+
+# Ignorar arquivos do sistema
+.DS_Store
+Thumbs.db
