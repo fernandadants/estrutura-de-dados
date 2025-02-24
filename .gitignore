@@ -36,3 +36,26 @@ programa
 # Ignorar arquivos do sistema
 .DS_Store
 Thumbs.db
+
+# Ignorar arquivos Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.eggs/
+*.ipynb_checkpoints/
+
+# Ignorar ambientes virtuais Python
+venv/
+.env/
+.virtualenv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignorar caches e logs do Python
+*.pytest_cache/
+.tox/
+.coverage
+htmlcov/
+.mypy_cache/
